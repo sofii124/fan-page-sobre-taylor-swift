@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4a8dc8; /* Azul claro */
+    color: #000000;
+}
+
+.header {
+    background-color: #fe0000; /* Coral vibrante */
+    color: rgb(14, 14, 95);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+}
+
+.nav ul li {
+    margin: 0;
+}
+
+.nav ul li a {
+    color: rgb(27, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #d6cecc; /* Tom mais claro de coral */
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fef9c3; /* Amarelo suave */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(even) {
+    background-color: #e0f7fa; /* Azul aquático */
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid #070504;
+}
+
+.album-list {
+    list-style: none;
+    padding: 0;
+    color: #374151; /* Cinza escuro */
+}
+
+.album-list li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #d84315; /* Laranja escuro */
+}
+
+.footer {
+    background-color: #374151; /* Cinza escuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
